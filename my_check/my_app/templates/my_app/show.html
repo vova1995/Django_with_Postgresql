@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="container text-center">
+	{% for n in name %}
+    	<button style="width: 100px;" class="btn btn-primary"><a target="_blank" style="color: white;" href="https://www.facebook.com/profile.php?id=100019753539152">{{ n.name }} </a></button>
+	{% endfor %}
+</div>
+
+{% endblock %}
